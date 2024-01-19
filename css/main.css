@@ -505,7 +505,7 @@ img {
   background-image: linear-gradient(0deg, #000 -9.6%, rgba(0, 0, 0, 0) 109.78%), url(../../images/MaskGroup.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 0 29px;
+  padding: 29px;
 }
 .posts__inner-bottom__main-three:hover {
   background-image: linear-gradient(0deg, #F00000 -9.6%, rgba(240, 0, 0, 0) 217.8%), url(../../images/MaskGroup.png);
@@ -570,6 +570,68 @@ img {
   line-height: 33px;
   letter-spacing: 0.02em;
   color: #fff;
+}
+
+.sign {
+  margin-top: 224px;
+  margin-bottom: 129px;
+}
+
+.sign__inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign__main {
+  text-align: center;
+  width: 641px;
+}
+
+.sign__main-title {
+  margin-bottom: 13px;
+  font-size: 46px;
+  line-height: 130.435%;
+  letter-spacing: 0.92px;
+}
+
+.sign__main-text {
+  margin-bottom: 100px;
+  color: #3d3d3d;
+  font-size: 18px;
+  line-height: 166.667%;
+  letter-spacing: 0.36px;
+}
+
+.sign__form {
+  display: flex;
+  width: 546px;
+  gap: 19px;
+}
+
+.sign__form-input {
+  width: 384px;
+  padding: 22px 0;
+  padding-left: 29px;
+  color: #858585;
+  font-size: 15px;
+  line-height: 166.667%;
+  letter-spacing: 0.3px;
+  border-radius: 15px;
+  border: 1px solid var(--black-shade-3, #E0E0E0);
+}
+
+.sign__form-btn {
+  border-radius: 10px;
+  background: var(--Primary, #D22238);
+  padding: 18px 39px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 166.667%;
+  letter-spacing: 0.3px;
 }
 
 body {
